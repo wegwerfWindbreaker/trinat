@@ -12,7 +12,7 @@ Mitglieder: Lucien Gschwind, Robert Wiesler, Michael Buchbauer
 
 4. [Build Anleitung](https://www.wikipedia.com)
 
-6. [User Stories in Tabellenform]()
+6. [User Stories in Tabellenform](wegwerfWindbreaker/trinat/edit/master/README.md)
 
 7. [Releaseplan mit den Ausbaustufen]()
 
