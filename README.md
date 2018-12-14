@@ -12,7 +12,7 @@ Mitglieder: Lucien Gschwind, Robert Wiesler, Michael Buchbauer
 
 4. [Build Anleitung](https://www.wikipedia.com)
 
-6. [User Stories in Tabellenform](wegwerfWindbreaker/trinat/edit/master/README.md)
+6. [User Stories in Tabellenform]()
 
 7. [Releaseplan mit den Ausbaustufen]()
 
@@ -36,3 +36,7 @@ Das Projekt **Moorhuhn** und das dazugehörige Git-Repository entstand im Rahmen
 
 ## Ziele
 Das Ziel besteht darin, die in den Fächern _Software Engineering_ sowie _Programmieren II_ erlernten Kompetenzen in einem selbstständigen Projekt umzusetetzen. Wir haben uns dafür entschieden, eine stark vereinfachte Form des Spiels Moorhuhn nach dem Software Engineering Konzept aufzubauen und in Java / Java FX zu programmieren.
+
+## Randbedingungen 
+Die verwendete Programmierumbgebung ist: JDK 8.0 Eclipse EE,dazu ein darauf installiertes Java FX
+
