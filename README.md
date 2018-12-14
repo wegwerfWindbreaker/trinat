@@ -104,8 +104,8 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 ### Dokumentation wichtier Code Snippets
 ![Code Snippet 1](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/Stage%20erstellen.JPG)
 > Im oberen Teil wird eine Stage erstell sowie der Fenstertitel und dessen Grösse festgelegt.  
-Anschliessend erstellen wir 2 Labels, eines für den Timer und eines für den Punktezähler (Counter). 
-Im untersten Teil wird dann noch der Button definiert. 
+Anschliessend erstellen wir 2 Labels, eines für den Timer und eines für den Punktezähler (Counter).   
+Im untersten Teil wird dann noch der Button definiert.    
 Bei allen Teilen bestimmen wir mit .. .relocate(x,y); die Position des Objektes.
 
 ### Testfaelle bedingt durch Aktzeptanzkriterium
