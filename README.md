@@ -88,8 +88,8 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 | Task | Beschreibung | Aufwandschätzung in Minuten |
 |------|--------------|-----------------------------|
 | 1 | Erstellen einer Stage und anschliessend darin befindenden Button | 40 |
-| 2 | Button in der Stage bewegen und gleichzeitig Möglichkeit zum Klicken erhalten | 40 |
-| 3 | Beim Klicken des Buttons sollen Punkte addiert werden | 50 |
+| 2 | Button in der Stage bewegen und gleichzeitig Möglichkeit zum Klicken beibehalten | 90 |
+| 3 | Beim Klicken des Buttons sollen Punkte addiert werden | 60 |
 
 #### User Story 2
 | Task | Beschreibung | Aufwandschätzung in Minuten |
