@@ -86,12 +86,14 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 ### Taskliste der User Stories (mit Schätzung)
 #### User Story 1
 | Task | Beschreibung | Aufwandschätzung in Minuten |
+|-----------|-----------|-----------|-----------|
 | 1 | Erstellen einer Stage und anschliessend darin befindenden Button | 40 |
 | 2 | Button in der Stage bewegen und gleichzeitig Möglichkeit zum Klicken erhalten | 40 |
 | 3 | Beim Klicken des Buttons sollen Punkte addiert werden | 50 |
 
 #### User Story 2
 | Task | Beschreibung | Aufwandschätzung in Minuten |
+|-----------|-----------|-----------|-----------|
 | 1 | Erstellen eines Timers, der auf Null runter zählt | 60 |
 | 2 | Integrieren des Timers in das Spiel | 60 |
 | 3 | Spiel beenden wenn Timer auf Null ist | 60 |
