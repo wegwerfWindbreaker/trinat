@@ -61,5 +61,5 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
     - Das Ziel ist möglichst viele Objekte in der vorgegebenen Zeit zu treffen
     - Jedes getroffene Objekt gibt Punkte
     - Das Ziel ist es, möglichst viele Punkte im Zeitlimit zu erreichen.
-
+* Um eine neue Runde zu starten, müssen Sie den Dialog schliessen und nochmal neu Öffnen
 
