@@ -44,7 +44,7 @@ Das Programm soll eine Stage erhalten, in welcher man bewegende Objekte durch kl
 Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen Elemente wird ein im Eclipse installiertes Java FX verwendet werden. Wir wollen das Programm in verschiedene Klassen unterteilen und diese mit Methoden strukturieren. Um die Strukturierung mit mehreren Teilnehmern zu vereinfachen, verwenden wir Maven. Der Datenaustausch, sowie die Archivierung erfolgt in Git.
 
 ## Build Anleitung
-1. Laden Sie die Datei von [Github]:(https://github.com/wegwerfWindbreaker/trinat/blob/master/src/animation/Animation.java) runter
+1. Laden Sie die Datei von [Github](https://github.com/wegwerfWindbreaker/trinat/blob/master/src/animation/Animation.java) runter
 2. Stellen Sie sicher, dass auf Ihrem PC ein Java Runtime Environment vorhanden ist, falls nicht installieren Sie dieses. (Bspw. JDK 8.0 Eclicspe)
 3. Führen Sie die Datei mit it einem Doppelklick auf den grünen Pfeil (Run) aus. Alternativ können Sie die Datei auch über die Konsole mit java-Anmimation.jar ausführen.
          
