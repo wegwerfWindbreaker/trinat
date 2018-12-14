@@ -65,10 +65,10 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 
 ## User Stories in Tabellen Form
 
-|  US    | Beschreibung                                                                                    | Story Points | Priorität |
-|--------|-------------------------------------------------------------------------------------------------|--------------|-----------|
-|  US 1  | Als Nutzer möchte ich einfache Objekte anklicken können und dafür Punkte erhalten um das Spiel Moorhuhn nachzuempfinden.             |              |           |
-|  US 2  | Als Spieler möchte ich einen zeitlich begrentzten Spielmodus um mich mit anderen messen zu können.              |              |           |
-|  US 3  | Als Spieler wünsche ich mir verschiedene Schwierigkeitsstufen um das Level meinen Skills anpassen zu können                                                                                               |              |           |
+|   US     | Beschreibung                                                                                    | Story Points | Priorität |
+|----------|-------------------------------------------------------------------------------------------------|--------------|-----------|
+|   US 1   | Als Nutzer möchte ich einfache, bewegte Objekte anklicken können und dafür Punkte erhalten um das Spiel Moorhuhn nachzuempfinden.             |   21           |   1        |
+|   US 2   | Als Spieler möchte ich einen zeitlich begrentzten Spielmodus um mich mit anderen messen zu können.              |   5           |   2        |
+|   US 3   | Als Spieler wünsche ich mir verschiedene Schwierigkeitsstufen um das Level meinen Skills anpassen zu können                                                                                               |  8            |   3        |
 
 #
