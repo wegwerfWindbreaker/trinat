@@ -119,6 +119,7 @@ Bei allen Teilen bestimmen wir mit .. .relocate(x,y); die Position des Objektes.
 | 2 | Entfernen der Objekte wenn Sie gecklickt wurden | 60 |
 | 3 | Auswahl des Schwierigkeitsgrades zu beginn der Anwendung | 60 |
 ### Anreicherung der User Stories
+![Bild User Story 3](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/US%203.JPG)
 ### UML Package, Klassen- und Sequenzendiagramm
 ### Dokumentation wichtier Code Snippets
 ### Testfaelle bedingt durch Aktzeptanzkriterium
