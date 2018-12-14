@@ -11,9 +11,11 @@ Mitglieder: Lucien Gschwind, Robert Wiesler, Michael Buchbauer
 6. [User Stories in Tabellenform]()
 7. [Releaseplan mit den Ausbaustufen]()
 8. [Dokumentation Sprint 1]()
-- Taskliste der User Stories
--  UML Klassen- und Sequenzdiagramme
-- Dokumentation wichtiger Code Snippets
-- Testfaelle bedingt durch Aktzeptanzkriterium
+- [Taskliste der User Stories (mit Schätzung)]()
+- [Anreicherung der User Stories]()
+- [UML Klassen- und Sequenzdiagramme]()
+- [Dokumentation wichtiger Code Snippets]()
+- [Testfaelle bedingt durch Aktzeptanzkriterium]()
+9. [Dokumentatino Sprint 2]()
 
 ## Einleitung
