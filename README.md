@@ -67,12 +67,15 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 
 |   US     | Beschreibung                     |                   Akzeptanzkriterium             | Story Points | Priorität |
 |----------|----------------------------------|--------------------------------------------------|--------------|-----------|
-|   US 1   | Als Nutzer möchte ich einfache, bewegte Objekte anklicken können und dafür Punkte erhalten um das Spiel Moorhuhn nachzuempfinden. |  Die Anwendung soll nach dem Starten in einem neuen Fenster bewegte Objekte anzeigen, welche angeklickt werden können und danach verschwinden. Wenn man auf das Objekt klickt, sollen Punkte addiert werden.            |   21           |   Hoch        |
-|   US 2   | Als Spieler möchte ich einen zeitlich begrentzten Spielmodus um mich mit anderen messen zu können.                                          |  Beim Starten der Anwendung soll ein Timer runterzählen und das Spiel zu Ende sein, wenn der Timer auf 0 ist.            |   5           |   Mittel        |
-|   US 3   | Als Spieler wünsche ich mir verschiedene Schwierigkeitsstufen um das Level meinen Skills anpassen zu können.                                |  Zu Beginn des Spiels soll die Auswahl getroffen werden können, welche Schwierigkeitsstufe man spielen will. Anschliessend soll das Fenster aufgehen und die Objekte einfacher oder schwierigerer anzuklicken sein         |  8            |   Niedrig        |
+|   1   | Als Nutzer möchte ich einfache, bewegte Objekte anklicken können und dafür Punkte erhalten um das Spiel Moorhuhn nachzuempfinden. |  Die Anwendung soll nach dem Starten in einem neuen Fenster bewegte Objekte anzeigen, welche angeklickt werden können und danach verschwinden. Wenn man auf das Objekt klickt, sollen Punkte addiert werden.            |   21           |   Hoch        |
+|   2   | Als Spieler möchte ich einen zeitlich begrentzten Spielmodus um mich mit anderen messen zu können.                                          |  Beim Starten der Anwendung soll ein Timer runterzählen und das Spiel zu Ende sein, wenn der Timer auf 0 ist.            |   5           |   Mittel        |
+|   3   | Als Spieler wünsche ich mir verschiedene Schwierigkeitsstufen um das Level meinen Skills anpassen zu können.                                |  Zu Beginn des Spiels soll die Auswahl getroffen werden können, welche Schwierigkeitsstufe man spielen will. Anschliessend soll das Fenster aufgehen und die Objekte einfacher oder schwierigerer anzuklicken sein         |  8            |   Niedrig        |
 
 #
 
 ## Releaseplan mit den Ausbaustufen
 | Userstory | Release 1 | Release 2 | Release 3 |
 |-----------|-----------|-----------|-----------|
+| 1 | Ausbaustufe 1 |  |  |
+| 2 |  | Ausbaustufe 2 |  |
+| 3 |  |  | Ausbaustufe 3 |
