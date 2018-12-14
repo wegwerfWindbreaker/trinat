@@ -93,7 +93,7 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 
 #### User Story 2
 | Task | Beschreibung | Aufwandschätzung in Minuten |
-|-----------|-----------|-----------|-----------|
+|------|--------------|-----------------------------|
 | 1 | Erstellen eines Timers, der auf Null runter zählt | 60 |
 | 2 | Integrieren des Timers in das Spiel | 60 |
 | 3 | Spiel beenden wenn Timer auf Null ist | 60 |
