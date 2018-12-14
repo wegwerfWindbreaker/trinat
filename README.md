@@ -81,3 +81,18 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 | 2 | Grundanforderung |  |  |
 | 3 |  | Ausbaustufe 1 |  |
 | 4 |  |  |  Ausbaustufe 2 |
+
+## Dokumentation Sprint 1
+### Taskliste für die Umsetzung der User Story
+
+### Anreicherung der User Stories
+### UML Package, Klassen- und Sequenzendiagramm
+### Dokumentation wichtier Code Snippets
+### Herleitung der Testfälle aus den Aktzeptanzkriterien der US
+
+## Dokumentation Sprint 2
+### Taskliste für die Umsetzung der User Story
+### Anreicherung der User Stories
+### UML Package, Klassen- und Sequenzendiagramm
+### Dokumentation wichtier Code Snippets
+### Herleitung der Testfälle aus den Aktzeptanzkriterien der US
