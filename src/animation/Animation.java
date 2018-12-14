@@ -8,6 +8,7 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
+import java.util.Timer;
 
 import javafx.animation.*;
 import javafx.scene.layout.Pane;
@@ -42,9 +43,9 @@ public class Animation extends Application {
 		counter ++;
 	}
 	// erstellen eines timers
-	public Label timer = new Label("Time: ");
+	public Label time = new Label("Time: ");
 	
-
+	Timer timer = new Timer();
 
 
 
@@ -65,8 +66,8 @@ public class Animation extends Application {
 		label.relocate(30, 30);
 		
 		
-		root.getChildren().add(timer);
-		timer.relocate(100, 30);
+		root.getChildren().add(time);
+		time.relocate(100, 30);
 		
 		
 		Button button = new Button("click me");
