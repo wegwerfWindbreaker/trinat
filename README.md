@@ -65,14 +65,11 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 
 ## User Stories in Tabellen Form
 
-| User Stories   |Beschreibung                   |Story Points                 |Priorität     |    
-|----------------|-------------------------------|-----------------------------|--------------|
-|US 1            |(1) Als Spieler wünsche ich mir|
-                 |einfache Objekte anklicken zu  |
-                 |können und dafür Punkte        |
-                 | zu bekommen.                  |       |              |
-|US 2            |`"Isn't this fun?"`            |       |              |     
-|US 3            |`-- is en-dash, --- is em-dash`|       |              |     
+| US  |Beschreibung                                                                                         |Story Points |Priorität|
+|-----|--------------------------------------------------------------------------------------------------- -|-------------|---------|
+|US 1 |Als Spieler wünsche ich mir einfache Objekte anklicken zu können und dafür Punkte zu bekommen.       |             |         |  
+|US 2 |Als Spieler will ich mich in einem schnellen Spielmodus mit anderen messen können.                   |             |         |   
+|US 3 |                                                                                                     |             |         |     
 
 
 #
