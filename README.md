@@ -54,7 +54,7 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 7. Bestätigen Sie ihre Eingabe mit Enter
          
 ## Bedienungsanleitung
-Eine kurze Anleitung für das Moorhuhn-Spiel:
+  * Eine kurze Anleitung für das Moorhuhn-Spiel:
 
     - Anwendung nach Build Anleitung starten
     - Es wird sogleich ein Fenster aufgehen, in dem sich je nach Version mehrere Objekte Bewegen. 
