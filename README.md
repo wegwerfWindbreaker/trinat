@@ -112,6 +112,12 @@ Bei allen Teilen bestimmen wir mit .. .relocate(x,y); die Position des Objektes.
 
 ## Dokumentation Sprint 2
 ### Taskliste der User Stories (mit Schätzung)
+#### User Story 3
+| Task | Beschreibung | Aufwandschätzung in Minuten |
+|------|--------------|-----------------------------|
+| 1 | Erweitern des Programms mit mehreren Objekten | 60 |
+| 2 | Entfernen der Objekte wenn Sie gecklickt wurden | 60 |
+| 3 | Auswahl des Schwierigkeitsgrades zu beginn der Anwendung | 60 |
 ### Anreicherung der User Stories
 ### UML Package, Klassen- und Sequenzendiagramm
 ### Dokumentation wichtier Code Snippets
