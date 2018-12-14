@@ -21,14 +21,14 @@ Mitglieder: Lucien Gschwind, Robert Wiesler, Michael Buchbauer
 8. [Dokumentation Sprint 1]()
 - [Taskliste der User Stories (mit Schätzung)]()
 - [Anreicherung der User Stories]()
-- [UML Klassen- und Sequenzdiagramme]()
+- [UML Package, Klassen- und Sequenzdiagramme]()
 - [Dokumentation wichtiger Code Snippets]()
 - [Testfaelle bedingt durch Aktzeptanzkriterium]()
 
 9. [Dokumentatin Sprint 2]()
 - [Taskliste der User Stories (mit Schätzung)]()
 - [Anreicherung der User Stories]()
-- [UML Klassen- und Sequenzdiagramme]()
+- [UML Package, Klassen- und Sequenzdiagramme]()
 - [Dokumentation wichtiger Code Snippets]()
 - [Testfaelle bedingt durch Aktzeptanzkriterium]()
 
@@ -43,7 +43,7 @@ Das Programm soll eine Stage erhalten, in welcher man bewegende Objekte durch kl
 ## Randbedingungen 
 Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen Elemente wird ein im Eclipse installiertes Java FX verwendet werden. Wir wollen das Programm in verschiedene Klassen unterteilen und diese mit Methoden strukturieren. Um die Strukturierung mit mehreren Teilnehmern zu vereinfachen, verwenden wir Maven. Der Datenaustausch, sowie die Archivierung erfolgt in Git.
 
-## Build Anleitung
+## Build Anleitung _NOCHMAL KONTROLLIEREN!!_
 1. Stellen Sie sicher, dass auf Ihrem PC ein Java Runtime Environment vorhanden ist, falls nicht installieren Sie dieses. (Bspw. JDK 8.0 Eclicspe)
 2. Laden Sie die Datei von unserem Repository in [Github](https://github.com/wegwerfWindbreaker/trinat/blob/master) runter
 3. Entpacken Sie die diese heruntergeladene Datei in den gewünschten Ordner
@@ -53,7 +53,7 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 > Beispiel: *java -jar C:\Users\Hans Zimmer\Downloads\trinat\version02.jar*
 7. Bestätigen Sie ihre Eingabe mit Enter
          
-## Bedienungsanleitung
+## Bedienungsanleitung _VIELEICHT NOCH SCHWIERIGKEITS AUSWAHL HINZUFÜGEN_
   * Eine kurze Anleitung für das Moorhuhn-Spiel:
 
     - Anwendung nach Build Anleitung starten
@@ -67,7 +67,7 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 
 |   US     | Beschreibung                     |                   Akzeptanzkriterium             | Story Points | Priorität |
 |----------|----------------------------------|--------------------------------------------------|--------------|-----------|
-|   1   | Als Spieler möchte ich einfache, bewegte Objekte anklicken können und dafür Punkte erhalten um das Spiel Moorhuhn nachzuempfinden. |  Die Anwendung soll nach dem Starten in einem neuen Fenster bewegte Objekte anzeigen, welche angeklickt werden können und danach verschwinden. Wenn man auf das Objekt klickt, sollen Punkte addiert werden.            |   21           |   Hoch        |
+|   1   | Als Spieler möchte ich ein einfaches, bewegtes Objekt anklicken können und dafür Punkte erhalten um das Spiel Moorhuhn nachzuempfinden. |  Die Anwendung soll nach dem Starten in einem Fenster ein bewegtes Objekt anzeigen, welches angeklickt werden kann. Wenn man auf das Objekt klickt, sollen Punkte addiert werden.            |   21           |   Hoch        |
 |   2   | Als Spieler möchte ich einen zeitlich begrentzten Spielmodus um mich mit anderen messen zu können.                                          |  Beim Starten der Anwendung soll ein Timer runterzählen und das Spiel zu Ende sein, wenn der Timer auf 0 ist.            |   5           |   Hoch        |
 |   3   | Als Spieler wünsche ich mir verschiedene Schwierigkeitsstufen um das Level meinen Skills anpassen zu können.                                |  Zu Beginn des Spiels soll die Auswahl getroffen werden können, welche Schwierigkeitsstufe man spielen will. Anschliessend soll das Fenster aufgehen und die Objekte einfacher oder schwierigerer anzuklicken sein         |  8            |   Mittel        |
 | 4  | Als Spieler wünsche ich mir ein Eingangs-, sowie ein Game-Over-Menü um den das Interface ansprechend zu empfinden. | Das Spiel soll ein Start- und Endmenü haben, in dem einige Optionen ausgwählt werden können (Music, Farbmodus, etc..). | 21  | Niedrig|
@@ -83,16 +83,27 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 | 4 |  |  |  Ausbaustufe 2 |
 
 ## Dokumentation Sprint 1
-### Taskliste für die Umsetzung der User Story
+### Taskliste der User Stories (mit Schätzung)
+#### User Story 1
+| Task | Beschreibung | Aufwandschätzung in Minuten |
+| 1 | Erstellen einer Stage und anschliessend darin befindenden Button | 40 |
+| 2 | Button in der Stage bewegen und gleichzeitig Möglichkeit zum Klicken erhalten | 40 |
+| 3 | Beim Klicken des Buttons sollen Punkte addiert werden | 50 |
+
+#### User Story 2
+| Task | Beschreibung | Aufwandschätzung in Minuten |
+| 1 | Erstellen eines Timers, der auf Null runter zählt | 60 |
+| 2 | Integrieren des Timers in das Spiel | 60 |
+| 3 | Spiel beenden wenn Timer auf Null ist | 60 |
 
 ### Anreicherung der User Stories
 ### UML Package, Klassen- und Sequenzendiagramm
 ### Dokumentation wichtier Code Snippets
-### Herleitung der Testfälle aus den Aktzeptanzkriterien der US
+### Testfaelle bedingt durch Aktzeptanzkriterium
 
 ## Dokumentation Sprint 2
-### Taskliste für die Umsetzung der User Story
+### Taskliste der User Stories (mit Schätzung)
 ### Anreicherung der User Stories
 ### UML Package, Klassen- und Sequenzendiagramm
 ### Dokumentation wichtier Code Snippets
-### Herleitung der Testfälle aus den Aktzeptanzkriterien der US
+### Testfaelle bedingt durch Aktzeptanzkriterium
