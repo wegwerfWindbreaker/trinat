@@ -67,8 +67,8 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 
 |  US    | Beschreibung                                                                                    | Story Points | Priorität |
 |--------|-------------------------------------------------------------------------------------------------|--------------|-----------|
-|  US 1  | Als Spieler möchte ich einfache Objekte anklicken können und dafür Punkte erhalten um das Spiel Moorhuhn nachzuempfinden.             |              |           |
-|  US 2  | Als Spieler will ich mich in einem schnellen Spielmodus mit anderen messen können.              |              |           |
+|  US 1  | Als Nutzer möchte ich einfache Objekte anklicken können und dafür Punkte erhalten um das Spiel Moorhuhn nachzuempfinden.             |              |           |
+|  US 2  | Als Spieler möchte ich einen zeitlich begrentzten Spielmodus um mich mit anderen messen zu können.              |              |           |
 |  US 3  |                                                                                                 |              |           |
 
 #
