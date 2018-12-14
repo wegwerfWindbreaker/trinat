@@ -102,6 +102,7 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 ![User Story 1](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/US%201.JPG)
 ### UML Package, Klassen- und Sequenzendiagramm
 ### Dokumentation wichtier Code Snippets
+![Code Snippet 1](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/Stage%20erstellen.JPG)
 ### Testfaelle bedingt durch Aktzeptanzkriterium
 
 ## Dokumentation Sprint 2
