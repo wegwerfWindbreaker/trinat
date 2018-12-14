@@ -99,7 +99,7 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 | 3 | Spiel beenden wenn der Timer Null erreicht hat | 60 |
 
 ### Anreicherung der User Stories
-![User Story 1](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/US%201.JPG)
+![Bild User Story 1 + 2](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/US%201.JPG)
 ### UML Package, Klassen- und Sequenzendiagramm
 ### Dokumentation wichtier Code Snippets
 ![Code Snippet 1](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/Stage%20erstellen.JPG)
