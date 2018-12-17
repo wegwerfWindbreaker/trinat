@@ -44,14 +44,13 @@ Das Programm soll eine Stage erhalten, in welcher man bewegende Objekte durch kl
 Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen Elemente wird ein im Eclipse installiertes Java FX verwendet werden. Wir wollen das Programm in verschiedene Klassen unterteilen und diese mit Methoden strukturieren. Um die Strukturierung mit mehreren Teilnehmern zu vereinfachen, verwenden wir Maven. Der Datenaustausch, sowie die Archivierung erfolgt in Git.
 
 ## Build Anleitung _NOCHMAL KONTROLLIEREN!!_
-1. Stellen Sie sicher, dass auf Ihrem PC ein Java Runtime Environment vorhanden ist, falls nicht installieren Sie dieses. (Bspw. JDK 8.0 Eclicspe)
-2. Laden Sie die Datei von unserem Repository in [Github](https://github.com/wegwerfWindbreaker/trinat/blob/master) runter
-3. Entpacken Sie die diese heruntergeladene Datei in den gewünschten Ordner
-4. Kopieren Sie den Pfad der gewünschten Versionsdatei (.jar) in die Zwischenablage
-5. Öffnen Sie die Konsole Ihres Rechners
-6. Geben Sie dort java -jar gefolgt von dem kopierten Pfad (.jar) ein. 
+1. Laden Sie die Datei von unserem Repository in [Github](https://github.com/wegwerfWindbreaker/trinat/blob/master) runter
+2. Entpacken Sie die diese heruntergeladene Datei in den gewünschten Ordner
+3. Kopieren Sie den Pfad der gewünschten Versionsdatei (.jar) in die Zwischenablage
+4. Öffnen Sie die Konsole Ihres Rechners
+5. Geben Sie dort java -jar gefolgt von dem kopierten Pfad (.jar) ein. 
 > Beispiel: *java -jar C:\Users\Hans Zimmer\Downloads\trinat\version02.jar*
-7. Bestätigen Sie ihre Eingabe mit Enter
+6. Bestätigen Sie ihre Eingabe mit Enter
          
 ## Bedienungsanleitung _VIELEICHT NOCH SCHWIERIGKEITS AUSWAHL HINZUFÜGEN_
   * Eine kurze Anleitung für das Moorhuhn-Spiel:
