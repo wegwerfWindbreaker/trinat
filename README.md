@@ -99,6 +99,7 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 
 ### Anreicherung der User Stories
 ![Bild User Story 1 + 2](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/US%201.JPG)
+> Die Andwendung soll einen Button im Fenster bewegen, der gedrückt werden kann.
 ### UML Package, Klassen- und Sequenzendiagramm
 ### Dokumentation wichtier Code Snippets
 ![Code Snippet 1](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/Stage%20erstellen.JPG)
@@ -119,6 +120,7 @@ Bei allen Teilen bestimmen wir mit .. .relocate(x,y); die Position des Objektes.
 | 3 | Auswahl des Schwierigkeitsgrades zu beginn der Anwendung | 60 |
 ### Anreicherung der User Stories
 ![Bild User Story 3](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/US%203.JPG)
+> Die
 ### UML Package, Klassen- und Sequenzendiagramm
 ### Dokumentation wichtier Code Snippets
 ### Testfaelle bedingt durch Aktzeptanzkriterium
