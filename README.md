@@ -59,7 +59,7 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
     - Es wird sogleich ein Fenster aufgehen, in dem sich je nach Version mehrere Objekte Bewegen. 
     - Das Ziel ist möglichst viele Objekte in der vorgegebenen Zeit zu treffen
     - Jedes getroffene Objekt gibt Punkte
-    - Das Ziel ist es, möglichst viele Punkte im Zeitlimit zu erreichen.
+    - _Das Ziel ist es, möglichst viele Punkte im Zeitlimit zu erreichen._ > Ziel wurde nicht erreicht.)
 * Um eine neue Runde zu starten, müssen Sie den Dialog schliessen und nochmal neu Öffnen
 
 ## User Stories in Tabellenform
