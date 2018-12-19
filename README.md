@@ -92,7 +92,7 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 
 
 ### Anreicherung der User Stories
-![Bild User Story 1 + 2](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/US%201.JPG)
+![Bild User Story 1 ](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/InkedUS%25201_LI.jpg)
 > Die Andwendung soll einen Button im Fenster bewegen, der gedrückt werden kann.
 ### UML Package, Klassen- und Sequenzendiagramm
 ### Dokumentation wichtier Code Snippets
