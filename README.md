@@ -112,6 +112,13 @@ Bei allen Teilen bestimmen wir mit .. .relocate(x,y); die Position des Objektes.
 
 ## Dokumentation Sprint 2
 ### Taskliste der User Stories (mit Schätzung)
+#### User Story 2
+| Task | Beschreibung | Aufwandschätzung in Minuten |
+|------|--------------|-----------------------------|
+| 1 | Erstellen eines Timers welcher von einem Wert (bspw. 30 sec.) auf Null runter zählt | 60 |
+| 2 | Integrieren des erstellten Timers in das Programm | 120 |
+| 3 | Spiel beenden wenn der Timer Null erreicht hat | 90 |
+
 #### User Story 3
 | Task | Beschreibung | Aufwandschätzung in Minuten |
 |------|--------------|-----------------------------|
