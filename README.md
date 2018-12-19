@@ -59,7 +59,7 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
     - Es wird sogleich ein Fenster aufgehen, in dem sich je nach Version mehrere Objekte Bewegen. 
     - Das Ziel ist möglichst viele Objekte in der vorgegebenen Zeit zu treffen
     - Jedes getroffene Objekt gibt Punkte
-    - _Das Ziel ist es, möglichst viele Punkte im Zeitlimit zu erreichen._ > Ziel wurde nicht erreicht.)
+    - _Das Ziel ist es, möglichst viele Punkte im Zeitlimit zu erreichen._  (Ziel wurde nicht erreicht.)
 * Um eine neue Runde zu starten, müssen Sie den Dialog schliessen und nochmal neu Öffnen
 
 ## User Stories in Tabellenform
@@ -94,8 +94,8 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 | Task | Beschreibung | Aufwandschätzung in Minuten |
 |------|--------------|-----------------------------|
 | 1 | Erstellen eines Timers welcher von einem Wert (bspw. 30 sec.) auf Null runter zählt | 60 |
-| 2 | Integrieren des erstellten Timers in das Programm | 60 |
-| 3 | Spiel beenden wenn der Timer Null erreicht hat | 60 |
+| 2 | Integrieren des erstellten Timers in das Programm | 120 |
+| 3 | Spiel beenden wenn der Timer Null erreicht hat | 90 |
 
 ### Anreicherung der User Stories
 ![Bild User Story 1 + 2](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/US%201.JPG)
@@ -120,7 +120,7 @@ Bei allen Teilen bestimmen wir mit .. .relocate(x,y); die Position des Objektes.
 | 3 | Auswahl des Schwierigkeitsgrades zu beginn der Anwendung | 60 |
 ### Anreicherung der User Stories
 ![Bild User Story 3](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/US%203.JPG)
-> Die
+> Die Buttons verschwinden hinter stillstehenden Objekten, wodurch das Anklicken erschwert werden soll. Zusätzlich ist das Ziel einen Timer ins Programm zu integrieren.
 ### UML Package, Klassen- und Sequenzendiagramm
 ### Dokumentation wichtier Code Snippets
 ### Testfaelle bedingt durch Aktzeptanzkriterium
