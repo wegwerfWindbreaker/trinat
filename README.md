@@ -77,7 +77,7 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 | Userstory | Release 1 | Release 2 | Release 3 |
 |-----------|-----------|-----------|-----------|
 | 1 | Grundanforderung |  |  |
-| 2 | Grundanforderung |  |  |
+| 2 |  | Ausbaustufe 1 |  |
 | 3 |  | Ausbaustufe 1 |  |
 | 4 |  |  |  Ausbaustufe 2 |
 
