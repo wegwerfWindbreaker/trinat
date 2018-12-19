@@ -67,7 +67,7 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 |   US     | Beschreibung                     |                   Akzeptanzkriterium             | Story Points | Priorität |
 |----------|----------------------------------|--------------------------------------------------|--------------|-----------|
 |   1   | Als Spieler möchte ich ein einfaches, bewegtes Objekt anklicken können und dafür Punkte erhalten um das Spiel Moorhuhn nachzuempfinden. |  Die Anwendung soll nach dem Starten in einem Fenster ein bewegtes Objekt anzeigen, welches angeklickt werden kann. Wenn man auf das Objekt klickt, sollen Punkte addiert werden.            |   21           |   Hoch        |
-|   2   | Als Spieler möchte ich einen zeitlich begrentzten Spielmodus um mich mit anderen messen zu können.                                          |  Beim Starten der Anwendung soll ein Timer runterzählen und das Spiel zu Ende sein, wenn der Timer auf 0 ist.            |   5           |   Hoch        |
+|   2   | Als Spieler möchte ich einen zeitlich begrentzten Spielmodus um mich mit anderen messen zu können.                                          |  Beim Starten der Anwendung soll ein Timer runterzählen und das Spiel zu Ende sein, wenn der Timer auf 0 ist.            |   5           |   Mittel        |
 |   3   | Als Spieler wünsche ich mir verschiedene Schwierigkeitsstufen um das Level meinen Skills anpassen zu können.                                |  Zu Beginn des Spiels soll die Auswahl getroffen werden können, welche Schwierigkeitsstufe man spielen will. Anschliessend soll das Fenster aufgehen und die Objekte einfacher oder schwierigerer anzuklicken sein         |  8            |   Mittel        |
 | 4  | Als Spieler wünsche ich mir ein Eingangs-, sowie ein Game-Over-Menü um den das Interface ansprechend zu empfinden. | Das Spiel soll ein Start- und Endmenü haben, in dem einige Optionen ausgwählt werden können (Music, Farbmodus, etc..). | 21  | Niedrig|
 
@@ -90,12 +90,6 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 | 2 | Button in der Stage bewegen und gleichzeitig Möglichkeit zum Klicken beibehalten | 90 |
 | 3 | Beim Klicken des Buttons sollen Punkte addiert werden | 60 |
 
-#### User Story 2
-| Task | Beschreibung | Aufwandschätzung in Minuten |
-|------|--------------|-----------------------------|
-| 1 | Erstellen eines Timers welcher von einem Wert (bspw. 30 sec.) auf Null runter zählt | 60 |
-| 2 | Integrieren des erstellten Timers in das Programm | 120 |
-| 3 | Spiel beenden wenn der Timer Null erreicht hat | 90 |
 
 ### Anreicherung der User Stories
 ![Bild User Story 1 + 2](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/US%201.JPG)
