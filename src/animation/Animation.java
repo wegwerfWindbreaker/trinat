@@ -5,6 +5,7 @@ import javafx.beans.binding.Bindings;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -48,94 +49,76 @@ public class Animation extends Application{
 	// erstellen eines counters und einer anzeige
 	int counter = 1;
 
-	
+
 
 	public void counter() {
 		counter ++;
 	}
 
-//	int timer = 60;
-//
-//	public void countdown() {
-//
-//		Timer mytimer = new Timer();
-//
-//		TimerTask mytask = new TimerTask() {
-//
-//
-//			@Override
-//			public void run() {
-//				if (timer <= 0) {
-//					time.setText("Hallo " +Integer.toString(timer));
-//					timer--;
-//				}
-//				
-//			}
-//		};mytimer.schedule(mytask, 0, 1000);
-//	}
-
-
-
-
-	@Override
-	public void start(Stage stage) {
-
-		stage.setTitle("Mohrhuhn");
-		Pane root = new Pane();
-		Scene scene = new Scene(root,Color.WHITE);
-		stage.setMaximized(true);
-		stage.setScene(scene);
-		stage.show();
-
-
-		root.getChildren().add(label);
+	//	int timer = 60;
+	//
+	//	public void countdown() {
+	//
+	//		Timer mytimer = new Timer();
+	//
+	//		TimerTask mytask = new TimerTask() {
+	//
+	//
+	//			@Override
+	//			public void run() {
+	//				if (timer <= 0) {
+	//					time.setText("Hallo " +Integer.toString(timer));
+	//					timer--;
+	//				}
+	//				
+	//			}
+	//		};mytimer.schedule(mytask, 0, 1000);
+	//	}
+	
+	public void window() {
+		
+		Stage stage2 = new Stage();
+		stage2.setTitle("new game");
+		Pane pane = new Pane();
+		Scene game = new Scene(pane, Color.GREEN);
+		stage2.setMaximized(true);
+		stage2.setScene(game);
+		stage2.show();	
+		
+		
 		label.relocate(30, 30);
-
-		root.getChildren().add(time);
-		time.relocate(200, 30);
-
+		pane.getChildren().add(label);
+		
 		button.relocate(30,setcordinate());
-		root.getChildren().add(button);
-
-		start.relocate(300, 30);
-		root.getChildren().add(start);
-
-
-
-				countdown c = new countdown();
-				c.counter(60);
+		pane.getChildren().add(button);
+		
+		pane.getChildren().add(time);
+		time.relocate(200, 30);
+		
+		countdown c = new countdown();
+		c.counter(60);
 
 
-				Thread t = new Thread() {
-				@Override
-				public void run() {
-					if (c.getTimer() != 0) {
-//				time.textProperty().bind(new SimpleIntegerProperty(c.getTimer()).asString());
-				time.setText("what up "+ Integer.toString(c.getTimer()));
-					}
+		Thread t = new Thread() {
+			@Override
+			public void run() {
+				if (c.getTimer() != 0) {
+					//				time.textProperty().bind(new SimpleIntegerProperty(c.getTimer()).asString());
+					time.setText("what up "+ Integer.toString(c.getTimer()));
+				}
 				try {
 					sleep(1000);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
-				}
-				};
-				t.start();
-
-
+			}
+		};
+		t.start();
 		//time.textProperty().bind(Bindings.format("%.2i", new SimpleIntegerProperty(timeLeft)));
 		//		time.textProperty().bind(new SimpleIntegerProperty(timeFromTimer).asString());
 		//		time.textProperty().bind(c.getTimer().SimpleIntegerProperty());
 
-
-		//		start.setOnAction((event) -> {
-		//		});
-
-
-
-
-
-
+		
 		// gibt dem button eine bewegung
 		TranslateTransition but = new TranslateTransition(Duration.millis(setvelocity()), button);
 		but.setByX(1100f);
@@ -153,6 +136,39 @@ public class Animation extends Application{
 			button.setDisable(true);
 			button.setVisible(false);
 		});
+		
+	}
+
+	@Override
+	public void start(Stage stage) {
+
+		stage.setTitle("Mohrhuhn");
+		Pane root = new Pane();
+		Scene scene = new Scene(root,400, 400,Color.WHITE);
+		stage.setScene(scene);
+		stage.show();
+
+
+
+		start.setCenterShape(true);
+		root.getChildren().add(start);
+		
+		// setzt ein neues Fenster beim drücken vom Start button;
+		start.setOnAction((event) -> {
+			window();	
+		});
+
+		
+
+		
+
+
+
+
+
+
+
+
 
 	}
 
