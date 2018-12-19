@@ -48,7 +48,7 @@ public class Animation extends Application{
 	// erstellen eines counters und einer anzeige
 	int counter = 1;
 
-
+	
 
 	public void counter() {
 		counter ++;
