@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.beans.binding.Bindings;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.event.ActionEvent;
+import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -54,26 +55,13 @@ public class Animation extends Application{
 	public void counter() {
 		counter ++;
 	}
-
-	//	int timer = 60;
-	//
-	//	public void countdown() {
-	//
-	//		Timer mytimer = new Timer();
-	//
-	//		TimerTask mytask = new TimerTask() {
-	//
-	//
-	//			@Override
-	//			public void run() {
-	//				if (timer <= 0) {
-	//					time.setText("Hallo " +Integer.toString(timer));
-	//					timer--;
-	//				}
-	//				
-	//			}
-	//		};mytimer.schedule(mytask, 0, 1000);
-	//	}
+	
+	public void buttonclick(Button button) {
+	    
+	    
+	}
+	
+	
 	
 	public void window() {
 		
@@ -85,57 +73,69 @@ public class Animation extends Application{
 		stage2.setScene(game);
 		stage2.show();	
 		
+	    final Timeline timeline = new Timeline(
+	    	      new KeyFrame(Duration.ZERO, new EventHandler<ActionEvent>() {
+	    	        @Override public void handle(ActionEvent event) {
+	    	        	
+	    	        	Button button = new Button("click me");
+	    	        	button.relocate(0,setcordinate());
+	    	        	pane.getChildren().add(button);
+	    	    		TranslateTransition but = new TranslateTransition(Duration.millis(setvelocity()), button);
+	    	    		but.setByX(1500f);
+	    	        	but.play();
+	    	    	    button.setOnAction((Event) -> {
+	    	    			label.setText("Count: "+Integer.toString(counter));
+	    	    			counter();
+	    	    			button.setDisable(true);
+	    	    			button.setVisible(false);
+	    	    		});
+	    	        }
+	    	      }),  
+	    	      new KeyFrame(Duration.millis(4000))
+	    	    );
+	    	    timeline.setCycleCount(Timeline.INDEFINITE);
+	    		
+	    	    
+		timeline.play();
 		
 		label.relocate(30, 30);
 		pane.getChildren().add(label);
 		
-		button.relocate(30,setcordinate());
-		pane.getChildren().add(button);
-		
 		pane.getChildren().add(time);
 		time.relocate(200, 30);
-		
-		countdown c = new countdown();
-		c.counter(60);
-
-
-		Thread t = new Thread() {
-			@Override
-			public void run() {
-				if (c.getTimer() != 0) {
-					//				time.textProperty().bind(new SimpleIntegerProperty(c.getTimer()).asString());
-					time.setText("what up "+ Integer.toString(c.getTimer()));
-				}
-				try {
-					sleep(1000);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
-			}
-		};
-		t.start();
-		//time.textProperty().bind(Bindings.format("%.2i", new SimpleIntegerProperty(timeLeft)));
-		//		time.textProperty().bind(new SimpleIntegerProperty(timeFromTimer).asString());
-		//		time.textProperty().bind(c.getTimer().SimpleIntegerProperty());
 
 		
-		// gibt dem button eine bewegung
-		TranslateTransition but = new TranslateTransition(Duration.millis(setvelocity()), button);
-		but.setByX(1100f);
+//		button.relocate(0,setcordinate() + 30);
+//		pane.getChildren().add(button);
+		
+		
+	
+//		but.setAutoReverse(true);
 		//		but.setByY(200f);
 		//		but.setCycleCount(5); ist nicht nötig es gibt nur einen cycle
-		but.setAutoReverse(true);
-
-
-		but.play();
-
+		
 		// gibt dem button die gewünschten reaktionen beim draufklicken
-		button.setOnAction((event) -> {
-			label.setText("Count: "+Integer.toString(counter));
-			counter();
-			button.setDisable(true);
-			button.setVisible(false);
-		});
+
+		
+		/*	
+		countdown c = new countdown();
+		c.counter(60);
+		
+		Thread t = new Thread() {
+		@Override
+		public void run() {
+			if (c.getTimer() != 0) {
+				//				time.textProperty().bind(new SimpleIntegerProperty(c.getTimer()).asString());
+				time.setText("what up "+ Integer.toString(c.getTimer()));
+			}
+			try {
+				sleep(1000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+	};
+	t.start();*/
 		
 	}
 
@@ -157,18 +157,6 @@ public class Animation extends Application{
 		start.setOnAction((event) -> {
 			window();	
 		});
-
-		
-
-		
-
-
-
-
-
-
-
-
 
 	}
 
