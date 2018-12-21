@@ -81,20 +81,24 @@ public class Animation extends Application{
 	    	        	button.relocate(0,setcordinate());
 	    	        	pane.getChildren().add(button);
 	    	    		TranslateTransition but = new TranslateTransition(Duration.millis(setvelocity()), button);
-	    	    		but.setByX(1500f);
+	    	    		but.setByX(1800f);
 	    	        	but.play();
 	    	    	    button.setOnAction((Event) -> {
 	    	    			label.setText("Count: "+Integer.toString(counter));
 	    	    			counter();
 	    	    			button.setDisable(true);
 	    	    			button.setVisible(false);
-	    	    		});
+	    	    			
+	    	    		});  
 	    	        }
 	    	      }),  
 	    	      new KeyFrame(Duration.millis(4000))
 	    	    );
 	    	    timeline.setCycleCount(Timeline.INDEFINITE);
-	    		
+	    
+ 	    
+ 	    
+ 	    pane.getChildren().remove(button);
 	    	    
 		timeline.play();
 		
