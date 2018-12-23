@@ -143,4 +143,3 @@ Bei allen Teilen bestimmen wir mit .. .relocate(x,y); die Position des Objektes.
 > Auf dem Bild ist der Loop programmiert, welcher für die Erzeugung der Buttons sorgt und diese während des ganzen Spiels wiederholt. 
 Im oberen Teil des Snippets wird der Button erzeugt und gesetzt und durch Translation im Fester bewegt.  
 Der Keyframe im unteren Teil bewirkt, dasss das Programm immer wiederholt wird, bis der Counter runter gezählt hat.
-### Testfaelle bedingt durch Aktzeptanzkriterium
