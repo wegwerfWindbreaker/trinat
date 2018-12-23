@@ -12,7 +12,6 @@ public class Test {
 		
 		assertEquals(10, c.getTimer());
 		
-		fail("Not yet implemented");
 	}
 
 }
