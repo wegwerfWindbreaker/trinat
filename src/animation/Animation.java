@@ -21,44 +21,43 @@ import javafx.scene.layout.Pane;
 
 public class Animation extends Application{
 
-
+	//definition aller variabel
 	public Label time = new Label();
-	public Label label = new Label("Count: ");
+	public Label label = new Label("Score: ");
 	final Button button = new Button("click me");
 	final Button start = new Button("start");
-
-
-	public static void main(String[] args) {
-		Application.launch(args);
-	}
+	final Button stop = new Button("Klick here to stop");
+	int counter = 1;
 
 	// random funktion für y kordinaten
 	public double setcordinate() {
 
-		double Ycoordinate = Math.round((int) (Math.random() * 800));
+		double Ycoordinate = Math.round((int) (Math.random() * 800) + 50);
 		return Ycoordinate;
 	}
 
 	// random funktion für geschwindigkeit
 	public int setvelocity() {
 
-		int velocity = (int) (Math.random()*6000 + 1000);
+		int velocity = (int) (Math.random()*6000 + 2000);
 
 		return velocity;
 	}
 
 	// erstellen eines counters und einer anzeige
-	int counter = 1;
-
-
-
+	
+	
 	public void counter() {
 		counter ++;
 	}
 	
 	public void buttonclick(Button button) {
-	    
-	    
+	    button.setOnAction((Event) -> {
+			label.setText("Count: "+Integer.toString(counter));
+			counter();
+			button.setDisable(true);
+			button.setVisible(false);	
+		});   
 	}
 	
 	
@@ -80,45 +79,32 @@ public class Animation extends Application{
 	    	        	Button button = new Button("click me");
 	    	        	button.relocate(0,setcordinate());
 	    	        	pane.getChildren().add(button);
+	    	        
 	    	    		TranslateTransition but = new TranslateTransition(Duration.millis(setvelocity()), button);
 	    	    		but.setByX(1800f);
 	    	        	but.play();
-	    	    	    button.setOnAction((Event) -> {
-	    	    			label.setText("Count: "+Integer.toString(counter));
-	    	    			counter();
-	    	    			button.setDisable(true);
-	    	    			button.setVisible(false);
-	    	    			
-	    	    		});  
+	    	        	buttonclick(button);
 	    	        }
 	    	      }),  
 	    	      new KeyFrame(Duration.millis(4000))
 	    	    );
 	    	    timeline.setCycleCount(Timeline.INDEFINITE);
 	    
- 	    
- 	    
- 	    pane.getChildren().remove(button);
-	    	    
+	    stop.setOnAction((event) -> {
+	    	stage2.close();
+	    });
+ 	     	    
 		timeline.play();
 		
-		label.relocate(30, 30);
+		
 		pane.getChildren().add(label);
+		label.relocate(30, 30);
 		
 		pane.getChildren().add(time);
 		time.relocate(200, 30);
-
 		
-//		button.relocate(0,setcordinate() + 30);
-//		pane.getChildren().add(button);
-		
-		
-	
-//		but.setAutoReverse(true);
-		//		but.setByY(200f);
-		//		but.setCycleCount(5); ist nicht nötig es gibt nur einen cycle
-		
-		// gibt dem button die gewünschten reaktionen beim draufklicken
+		pane.getChildren().add(stop);
+		stop.relocate(1500, 30);
 
 		
 		/*	
@@ -162,6 +148,10 @@ public class Animation extends Application{
 			window();	
 		});
 
+	}
+	
+	public static void main(String[] args) {
+		Application.launch(args);
 	}
 
 }
