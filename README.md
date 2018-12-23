@@ -137,6 +137,7 @@ Bei allen Teilen bestimmen wir mit .. .relocate(x,y); die Position des Objektes.
 
 ### UML Package, Klassen- und Sequenzendiagramm
 ![Klassendiagramm](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/Klassendiagramm.jpeg)
+> Die Klasse "Main Animation" ist unsere Hauptklasse. Von dieser aus wird in der Methode "gameOver" die zweite Klasse countdown() aufgerufen
 ### Dokumentation wichtier Code Snippets
 ![CodeSnippetLoop](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/CodeSnippet%20Loop.JPG)
 > Auf dem Bild ist der Loop programmiert, welcher für die Erzeugung der Buttons sorgt und diese während des ganzen Spiels wiederholt. 
