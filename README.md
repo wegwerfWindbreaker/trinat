@@ -106,6 +106,7 @@ Im untersten Teil wird dann noch der Button definiert.
 Bei allen Teilen bestimmen wir mit .. .relocate(x,y); die Position des Objektes.
 
 ### Testfaelle bedingt durch Aktzeptanzkriterium
+> Wir haben versucht, die Funktion des Timers zu testen mithilfe von JUnit Test4. Dies ist uns trotz verschiedenen Vorgehensweisen leider nicht gelungen. Wir haben die letzte Version (welche nicht funktioniert hat) auf GIT hochgeladen.
 
 ## Dokumentation Sprint 2
 ### Taskliste der User Stories (mit Schätzung)
