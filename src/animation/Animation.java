@@ -32,7 +32,7 @@ public class Animation extends Application{
 	final Stage stage3 = new Stage();
 	final Stage stage2 = new Stage();
 	public countdown c = new countdown();
-	public int counter = 1;
+	int counter = 1;
 
 
 	// random Funktion für y Kordinaten
@@ -164,8 +164,6 @@ public class Animation extends Application{
 		Scene scene = new Scene(root,400, 400,Color.WHITE);
 		stage.setScene(scene);
 		stage.show();
-
-
 
 
 		start.setAlignment(Pos.TOP_CENTER);
