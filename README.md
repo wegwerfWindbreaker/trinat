@@ -49,7 +49,7 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 3. Kopieren Sie den Pfad der gewünschten Versionsdatei (.jar) in die Zwischenablage
 4. Öffnen Sie die Konsole Ihres Rechners
 5. Geben Sie dort java -jar gefolgt von dem kopierten Pfad (.jar) ein. 
-> Beispiel: *java -jar C:\Users\Hans Zimmer\Downloads\trinat\version02.jar*
+> Beispiel: *java -jar C:\Users\Hans Zimmer\Downloads\trinat\moorhuhn.jar*
 6. Bestätigen Sie ihre Eingabe mit Enter
          
 ## Bedienungsanleitung
