@@ -43,7 +43,7 @@ Das Programm soll eine Stage erhalten, in welcher man bewegende Objekte durch kl
 ## Randbedingungen 
 Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen Elemente wird ein im Eclipse installiertes Java FX verwendet werden. Wir wollen das Programm in verschiedene Klassen unterteilen und diese mit Methoden strukturieren. Um die Strukturierung mit mehreren Teilnehmern zu vereinfachen, verwenden wir Maven. Der Datenaustausch, sowie die Archivierung erfolgt in Git.
 
-## Build Anleitung _NOCHMAL KONTROLLIEREN!!_
+## Build Anleitung 
 1. Laden Sie die Datei von unserem Repository in [Github](https://github.com/wegwerfWindbreaker/trinat/blob/master) runter
 2. Entpacken Sie die diese heruntergeladene Datei in den gewünschten Ordner
 3. Kopieren Sie den Pfad der gewünschten Versionsdatei (.jar) in die Zwischenablage
