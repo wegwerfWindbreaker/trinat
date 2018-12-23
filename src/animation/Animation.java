@@ -166,10 +166,12 @@ public class Animation extends Application{
 		stage.show();
 
 
-		start.setAlignment(Pos.TOP_CENTER);
+		start.relocate(160, 200);
 		root.getChildren().add(start);
 
-
+		explanation.relocate(100, 100);
+		explanation.setText("This is a moorhuhn game. \nEach round lasts 60 seconds \n\n           HAVE FUN!");
+		root.getChildren().add(explanation);
 		// setzt ein neues Fenster beim drücken vom Start button;
 		start.setOnAction((event) -> {
 			window(stage2);	
