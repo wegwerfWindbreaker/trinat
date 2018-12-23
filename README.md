@@ -94,12 +94,12 @@ Die verwendete Programmierumbgebung ist JDK 8.0 Eclipse EE, für die graphischen
 | 5 | Automatisches generieren der Objekte, sodass nicht nur ein Objekt auf dem Bildschrim erscheint | 100 |
 
 ### Anreicherung der User Stories
-![Bild User Story 1 ](https:)
+![Bild User Story 1 ](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/US1.JPG)
 > Die Andwendung soll einen Button im Fenster bewegen, der gedrückt werden kann.
 ### UML Package, Klassen- und Sequenzendiagramm
 > Wird im 2. Sprint vollständig gemacht.
 ### Dokumentation wichtier Code Snippets
-![Code Snippet 1](https:)
+![Code Snippet 1](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/Stage%20erstellen.JPG)
 > Im oberen Teil wird eine Stage erstell sowie der Fenstertitel und dessen Grösse festgelegt.  
 Anschliessend erstellen wir 2 Labels, eines für den Timer und eines für den Punktezähler (Counter).   
 Im untersten Teil wird dann noch der Button definiert.    
@@ -129,8 +129,12 @@ Bei allen Teilen bestimmen wir mit .. .relocate(x,y); die Position des Objektes.
 
 
 ### Anreicherung der User Stories
-![Bild User Story 3](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/US%203.JPG)
-> Die Buttons verschwinden hinter stillstehenden Objekten, wodurch das Anklicken erschwert werden soll. Zusätzlich ist das Ziel einen Timer ins Programm zu integrieren.
+![Bild User Story 2](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/US21.JPG)
+> Das Spiel wird nach der abgelaufenen Zeit beendet und ein Game Over Fenster öffnet sich, in welchem die Punkte angezeigt werden und eine neue Runde gestartet werden kann.
+![Bild User Story 3](https://github.com/wegwerfWindbreaker/trinat/blob/master/documentary/US2.JPG)
+
+
 ### UML Package, Klassen- und Sequenzendiagramm
+
 ### Dokumentation wichtier Code Snippets
 ### Testfaelle bedingt durch Aktzeptanzkriterium
