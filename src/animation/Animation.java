@@ -6,6 +6,7 @@ import javafx.beans.property.SimpleIntegerProperty;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.event.EventHandler;
+import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -21,9 +22,10 @@ import javafx.scene.layout.Pane;
 
 public class Animation extends Application{
 
-	//definition aller variabel
-	public Label time = new Label();
-	public Label label = new Label("Score: ");
+	//definition aller variabeln
+	final Label explanation = new Label();
+	final Label time = new Label();
+	final Label label = new Label("Score: ");
 	final Button button = new Button("click me");
 	final Button start = new Button("start");
 	final Button stop = new Button("Klick here to stop");
@@ -140,13 +142,15 @@ public class Animation extends Application{
 
 
 
-		start.setCenterShape(true);
+		start.setAlignment(Pos.CENTER);
 		root.getChildren().add(start);
 		
 		// setzt ein neues Fenster beim drücken vom Start button;
 		start.setOnAction((event) -> {
 			window();	
+			stage.close();
 		});
+		
 
 	}
 	
